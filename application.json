@@ -1,0 +1,45 @@
+{
+  "pages": [
+    {
+      "id": "首页",
+      "isDefault": true
+    },
+    {
+      "id": "项目信息",
+      "isDefault": false
+    },
+    {
+      "id": "合同信息",
+      "isDefault": false
+    },
+    {
+      "id": "编辑合同",
+      "isDefault": false
+    },
+    {
+      "id": "新增合同",
+      "isDefault": false
+    },
+    {
+      "id": "合同确认",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C7F3E3",
+  "icon": "laptop",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "applicationVersion": 1,
+  "isManualUpdate": false,
+  "viewerLayout": "{\"color\":\"#09b198\",\"logoUrl\":\"\",\"name\":\"工程管理平台\",\"treeData\":[{\"title\":\"首页\",\"pageId\":\"6319cbdd97b80d36d9af97ef\",\"isPage\":true,\"icon\":\"wap-home-o\"},{\"title\":\"项目管理\",\"icon\":\"records\",\"expanded\":true,\"children\":[{\"title\":\"项目信息\",\"pageId\":\"6319cbdd97b80d36d9af97e5\",\"isPage\":true}]},{\"title\":\"合同管理\",\"icon\":\"gold-coin-o\",\"expanded\":true,\"children\":[{\"title\":\"合同信息\",\"pageId\":\"6319cbdd97b80d36d9af97e7\",\"isPage\":true},{\"title\":\"合同确认\",\"pageId\":\"6319cbdd97b80d36d9af97ed\",\"isPage\":true}]}],\"outsiderTree\":[{\"title\":\"新增合同\",\"pageId\":\"6319cbdd97b80d36d9af97eb\",\"isPage\":true},{\"title\":\"编辑合同\",\"pageId\":\"6319cbdd97b80d36d9af97e9\",\"isPage\":true}]}",
+  "deleted": false
+}

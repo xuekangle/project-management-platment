@@ -1,0 +1,1596 @@
+{
+  "unpublishedPage": {
+    "name": "合同确认",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1558,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 690,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "StateSelect",
+              "isFilterable": false,
+              "topRow": 9,
+              "bottomRow": 13,
+              "parentRowSpace": 10,
+              "type": "DROP_DOWN_WIDGET",
+              "defaultOptionValue": "",
+              "selectionType": "SINGLE_SELECT",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 22,
+              "dynamicBindingPathList": [
+                {
+                  "key": "options"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "options": "{{ComfirmStates.data.map(p => ({\n\tlabel: p.name,\n\tvalue: p.value\n}))}}",
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "rightColumn": 38,
+              "widgetId": "9pd7tdfvsm",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Text2CopyCopy2Copy",
+              "topRow": 9,
+              "bottomRow": 13,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 18,
+              "dynamicBindingPathList": [],
+              "text": "确认状态",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 22,
+              "textAlign": "RIGHT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "2xqbhbhl5a",
+              "isVisible": true,
+              "fontStyle": "",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "OppositeInput",
+              "topRow": 9,
+              "bottomRow": 13,
+              "parentRowSpace": 10,
+              "type": "INPUT_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "resetOnSubmit": true,
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "validation": "true",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "rightColumn": 18,
+              "widgetId": "9sl6sb3o2e",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "",
+              "allowCurrencyChange": false,
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Text2CopyCopy2",
+              "topRow": 9,
+              "bottomRow": 13,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 1,
+              "dynamicBindingPathList": [],
+              "text": "承包商名称",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 5,
+              "textAlign": "RIGHT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "k0muq74xu5",
+              "isVisible": true,
+              "fontStyle": "",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "EndDate",
+              "dateFormat": "YYYY-MM-DD",
+              "topRow": 4,
+              "bottomRow": 8,
+              "shortcuts": false,
+              "parentRowSpace": 10,
+              "type": "DATE_PICKER_WIDGET2",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 54,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "rightColumn": 62,
+              "dynamicHeight": "FIXED",
+              "widgetId": "8l041lpcu5",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "datePickerType": "DATE_PICKER",
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "closeOnSelection": true,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Text2CopyCopy1",
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 52,
+              "dynamicBindingPathList": [],
+              "text": "至",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 54,
+              "textAlign": "CENTER",
+              "dynamicHeight": "FIXED",
+              "widgetId": "zkbu0lrj68",
+              "isVisible": true,
+              "fontStyle": "",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Text2CopyCopy",
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 39,
+              "dynamicBindingPathList": [],
+              "text": "开始结束日期",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 44,
+              "textAlign": "RIGHT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "5eeizv72at",
+              "isVisible": true,
+              "fontStyle": "",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Text2Copy",
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 18,
+              "dynamicBindingPathList": [],
+              "text": "所属项目",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 22,
+              "textAlign": "RIGHT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "yoyqhife1k",
+              "isVisible": true,
+              "fontStyle": "",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "multiRowSelection": true,
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "id",
+                "name",
+                "uid",
+                "project_type",
+                "amount",
+                "project",
+                "startTime",
+                "endTime",
+                "opposite",
+                "confirm_state",
+                "confirm_note",
+                "published_at",
+                "created_at",
+                "updated_at",
+                "contract_type",
+                "companies",
+                "members",
+                "customColumn2"
+              ],
+              "isVisibleDownload": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "primaryColumns.customColumn2.onClick"
+                },
+                {
+                  "key": "primaryColumns.confirm_state.textColor"
+                }
+              ],
+              "topRow": 21,
+              "bottomRow": 69,
+              "parentRowSpace": 10,
+              "onPageChange": "{{Contracts.run()}}",
+              "isSortable": true,
+              "type": "TABLE_WIDGET",
+              "defaultSelectedRow": "[]",
+              "onPageSizeChange": "{{Contracts.run()}}",
+              "animateLoading": true,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onPageChange"
+                },
+                {
+                  "key": "onPageSizeChange"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.onClick"
+                }
+              ],
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.amount.computedValue"
+                },
+                {
+                  "key": "primaryColumns.startTime.computedValue"
+                },
+                {
+                  "key": "primaryColumns.endTime.computedValue"
+                },
+                {
+                  "key": "primaryColumns.published_at.computedValue"
+                },
+                {
+                  "key": "primaryColumns.created_at.computedValue"
+                },
+                {
+                  "key": "primaryColumns.updated_at.computedValue"
+                },
+                {
+                  "key": "primaryColumns.project_type.computedValue"
+                },
+                {
+                  "key": "primaryColumns.uid.computedValue"
+                },
+                {
+                  "key": "primaryColumns.opposite.computedValue"
+                },
+                {
+                  "key": "primaryColumns.confirm_state.computedValue"
+                },
+                {
+                  "key": "primaryColumns.confirm_note.computedValue"
+                },
+                {
+                  "key": "primaryColumns.contract_type.computedValue"
+                },
+                {
+                  "key": "primaryColumns.project.computedValue"
+                },
+                {
+                  "key": "primaryColumns.companies.computedValue"
+                },
+                {
+                  "key": "primaryColumns.members.computedValue"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.buttonLabel"
+                },
+                {
+                  "key": "primaryColumns.confirm_state.textColor"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "derivedColumns.customColumn2.buttonColor"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.buttonColor"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.borderRadius"
+                }
+              ],
+              "leftColumn": 1,
+              "primaryColumns": {
+                "project_type": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.project_type?.name))}}",
+                  "textSize": "0.875rem",
+                  "index": 13,
+                  "isVisible": true,
+                  "label": "合同类型",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "project_type",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "amount": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.amount))}}",
+                  "textSize": "0.875rem",
+                  "index": 2,
+                  "isVisible": true,
+                  "label": "合同金额（万元）",
+                  "textColor": "#DD4B34",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "amount",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "fontStyle": "BOLD",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "created_at": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.created_at))}}",
+                  "textSize": "0.875rem",
+                  "index": 11,
+                  "isVisible": false,
+                  "label": "created_at",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "created_at",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "project": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.project))}}",
+                  "textSize": "0.875rem",
+                  "index": 13,
+                  "isVisible": true,
+                  "label": "所属项目",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "project",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "opposite": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.opposite))}}",
+                  "textSize": "0.875rem",
+                  "index": 6,
+                  "isVisible": true,
+                  "label": "承包商名称",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "opposite",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "customColumn2": {
+                  "isDerived": true,
+                  "computedValue": "",
+                  "onClick": "{{(() => {\n\tstoreValue('confirmRow', currentRow);\n\tshowModal('Modal1');\n})()}}",
+                  "index": 18,
+                  "isVisible": true,
+                  "label": "操作",
+                  "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( '确认'))}}",
+                  "columnType": "button",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "customColumn2",
+                  "buttonLabelColor": "#3366FF",
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "buttonColor": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.theme.colors.primaryColor))}}",
+                  "borderRadius": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "boxShadow": "none",
+                  "buttonVariant": "TERTIARY"
+                },
+                "confirm_state": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.confirm_state.name))}}",
+                  "textSize": "0.875rem",
+                  "index": 10,
+                  "isVisible": true,
+                  "label": "状态",
+                  "textColor": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.confirm_state.value == '3' ? 'red' : (currentRow.confirm_state.value == '2' ? '#03b365' : \"#888\")))}}",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "confirm_state",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "confirm_note": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.confirm_note))}}",
+                  "textSize": "0.875rem",
+                  "index": 11,
+                  "isVisible": true,
+                  "label": "备注",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "confirm_note",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "uid": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.uid))}}",
+                  "textSize": "0.875rem",
+                  "index": 2,
+                  "isVisible": true,
+                  "label": "项目合同编号",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "uid",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "contract_type": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.contract_type))}}",
+                  "textSize": "0.875rem",
+                  "index": 12,
+                  "isVisible": false,
+                  "label": "contract_type",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "contract_type",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "companies": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.companies))}}",
+                  "textSize": "0.875rem",
+                  "index": 15,
+                  "isVisible": false,
+                  "label": "companies",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "companies",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "updated_at": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.updated_at))}}",
+                  "textSize": "0.875rem",
+                  "index": 12,
+                  "isVisible": false,
+                  "label": "updated_at",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "updated_at",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "members": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.members))}}",
+                  "textSize": "0.875rem",
+                  "index": 16,
+                  "isVisible": false,
+                  "label": "members",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "members",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "name": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.name))}}",
+                  "textSize": "0.875rem",
+                  "index": 1,
+                  "isVisible": true,
+                  "label": "合同名称",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "name",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "fontStyle": "BOLD",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "startTime": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.startTime))}}",
+                  "textSize": "0.875rem",
+                  "index": 3,
+                  "isVisible": true,
+                  "label": "合同开始时间",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "startTime",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "id": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.id))}}",
+                  "textSize": "0.875rem",
+                  "index": 0,
+                  "isVisible": false,
+                  "label": "id",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "id",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "endTime": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.endTime))}}",
+                  "textSize": "0.875rem",
+                  "index": 4,
+                  "isVisible": true,
+                  "label": "合同结束时间",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "endTime",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "published_at": {
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.published_at))}}",
+                  "textSize": "0.875rem",
+                  "index": 10,
+                  "isVisible": false,
+                  "label": "published_at",
+                  "textColor": "",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "published_at",
+                  "cellBackground": "",
+                  "verticalAlignment": "CENTER",
+                  "isCellVisible": true,
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                }
+              },
+              "delimiter": ",",
+              "derivedColumns": {
+                "customColumn2": {
+                  "isDerived": true,
+                  "computedValue": "",
+                  "buttonStyle": "#FFFFFF",
+                  "index": 18,
+                  "isVisible": true,
+                  "label": "",
+                  "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( '确认Action'))}}",
+                  "columnType": "button",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "customColumn2",
+                  "buttonLabelColor": "#3366FF",
+                  "borderRadius": "0px",
+                  "boxShadow": "none",
+                  "buttonColor": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.theme.colors.primaryColor))}}"
+                }
+              },
+              "labelTextSize": "0.875rem",
+              "rightColumn": 62,
+              "textSize": "0.875rem",
+              "widgetId": "jjl2kxdrvl",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "tableData": "{{Contracts.data}}",
+              "isVisible": true,
+              "label": "Data",
+              "searchKey": "",
+              "version": 3,
+              "textColor": "",
+              "parentId": "0",
+              "totalRecordCount": 0,
+              "serverSidePaginationEnabled": true,
+              "isLoading": false,
+              "isVisibleCompactMode": true,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "isVisiblePagination": true,
+              "cellBackground": "",
+              "verticalAlignment": "CENTER",
+              "columnSizeMap": {
+                "project_type": 97,
+                "amount": 140,
+                "customColumn1": 90.20937499999991,
+                "customColumn2": 93,
+                "confirm_state": 80,
+                "uid": 201,
+                "task": 245,
+                "name": 132,
+                "step": 62,
+                "startTime": 110,
+                "id": 64,
+                "endTime": 114,
+                "status": 75
+              }
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Button2",
+              "onClick": "{{DeleteContract.run(() => {\n\tContracts.run();\n\tContractCount.run();\n}, () => {})}}",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                },
+                {
+                  "key": "onClick"
+                }
+              ],
+              "buttonColor": "#F22B2B",
+              "topRow": 17,
+              "bottomRow": 21,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "isVisible"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "删除",
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 7,
+              "isDefaultClickDisabled": true,
+              "widgetId": "8yxpqbd882",
+              "isVisible": "{{!!Table1.selectedRows.length}}",
+              "version": 1,
+              "recaptchaType": "V3",
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "ProjectInput",
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "INPUT_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "resetOnSubmit": true,
+              "leftColumn": 22,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "validation": "true",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "rightColumn": 38,
+              "widgetId": "z4owyngn6t",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "",
+              "allowCurrencyChange": false,
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "TypeSelect",
+              "isFilterable": false,
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "DROP_DOWN_WIDGET",
+              "defaultOptionValue": "",
+              "selectionType": "SINGLE_SELECT",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "options"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "options": "{{ProjectTypes.data.map(p => ({\n\tlabel: p.name,\n\tvalue: p.value\n}))}}",
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "rightColumn": 18,
+              "widgetId": "5mo72f3kcn",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "StartDate",
+              "minDate": "1920-12-31T18:30:00.000Z",
+              "dateFormat": "YYYY-MM-DD",
+              "topRow": 4,
+              "bottomRow": 8,
+              "shortcuts": false,
+              "parentRowSpace": 10,
+              "type": "DATE_PICKER_WIDGET2",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 44,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "rightColumn": 52,
+              "dynamicHeight": "FIXED",
+              "widgetId": "qdrrkk33hc",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "datePickerType": "DATE_PICKER",
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "closeOnSelection": true,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Modal1",
+              "topRow": 0,
+              "bottomRow": 0,
+              "parentRowSpace": 1,
+              "type": "MODAL_WIDGET",
+              "shouldScrollContents": true,
+              "parentColumnSpace": 1,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClose"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "topRow": 0,
+                  "bottomRow": 240,
+                  "parentRowSpace": 1,
+                  "canExtend": true,
+                  "type": "CANVAS_WIDGET",
+                  "shouldScrollContents": false,
+                  "minHeight": 240,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text4Copy",
+                      "topRow": 5,
+                      "bottomRow": 9,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 6.8125,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 4,
+                      "dynamicBindingPathList": [],
+                      "text": "合同",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 10,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "jkef6889ms",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "2ep76ih7zf",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button6Copy",
+                      "onClick": "{{RejectContract.run(() => closeModal('Modal1'), () => {})}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "topRow": 18,
+                      "bottomRow": 22,
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "parentColumnSpace": 6.8125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 37,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "不通过",
+                      "isDisabled": false,
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 50,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "c2lgloowhv",
+                      "isVisible": true,
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "2ep76ih7zf",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "SECONDARY"
+                    },
+                    {
+                      "labelTextSize": "0.875rem",
+                      "boxShadow": "none",
+                      "widgetName": "Icon1",
+                      "rightColumn": 64,
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "iconName": "cross",
+                      "buttonColor": "#2E3D49",
+                      "widgetId": "ug5yy8qd6j",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "isVisible": true,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "version": 1,
+                      "parentId": "2ep76ih7zf",
+                      "isLoading": false,
+                      "leftColumn": 59,
+                      "borderRadius": "0px",
+                      "buttonVariant": "TERTIARY",
+                      "iconSize": 24
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text1",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 8,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "text": "合同确认",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 18,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "0gcwk7l3kl",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "2ep76ih7zf",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.125rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button6",
+                      "onClick": "{{ConfirmContract.run(() => closeModal('Modal1'), () => {})}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "topRow": 18,
+                      "bottomRow": 22,
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "parentColumnSpace": 6.8125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 50,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "通过",
+                      "isDisabled": false,
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 63,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "mzl87d1tyj",
+                      "isVisible": true,
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "2ep76ih7zf",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "ConfirmInput",
+                      "topRow": 9,
+                      "bottomRow": 17,
+                      "parentRowSpace": 10,
+                      "type": "INPUT_WIDGET",
+                      "parentColumnSpace": 6.8125,
+                      "resetOnSubmit": true,
+                      "leftColumn": 10,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "validation": "true",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "rightColumn": 64,
+                      "widgetId": "qzq1itphv9",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "label": "",
+                      "allowCurrencyChange": false,
+                      "version": 1,
+                      "parentId": "2ep76ih7zf",
+                      "isLoading": false,
+                      "borderRadius": "0px"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text4",
+                      "topRow": 9,
+                      "bottomRow": 13,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 6.8125,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 4,
+                      "dynamicBindingPathList": [],
+                      "text": "备注",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 10,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "kiomkx6hxp",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "2ep76ih7zf",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text5",
+                      "topRow": 5,
+                      "bottomRow": 9,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 6.8125,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 10,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "text": "{{global.store.confirmRow.name}}",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "bo1536nsol",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "2ep76ih7zf",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "isDisabled": false,
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 0,
+                  "detachFromLayout": true,
+                  "widgetId": "2ep76ih7zf",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "wwhw3gxz8s",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "height": 240,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 0,
+              "detachFromLayout": true,
+              "dynamicHeight": "FIXED",
+              "widgetId": "wwhw3gxz8s",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "isLoading": false,
+              "onClose": "{{Contracts.run(() => resetWidget(\"ConfirmInput\",true), () => {})}}",
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "width": 456,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Text2",
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 1,
+              "dynamicBindingPathList": [],
+              "text": "合同类别",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 5,
+              "textAlign": "RIGHT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "weywsn0rdt",
+              "isVisible": true,
+              "fontStyle": "",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Button3",
+              "onClick": "{{Contracts.run(() => ContractCount.run(), () => {})}}",
+              "dynamicPropertyPathList": [],
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "topRow": 9,
+              "bottomRow": 13,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 52,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "搜索",
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 57,
+              "isDefaultClickDisabled": true,
+              "widgetId": "gpdubr2u89",
+              "isVisible": true,
+              "version": 1,
+              "recaptchaType": "V3",
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Button4",
+              "onClick": "{{(() => {\nresetWidget(\"ProjectInput\",true);\tresetWidget(\"TypeSelect\",true);\nresetWidget(\"StartDate\",true);\n\tresetWidget(\"EndDate\",true);\n\tresetWidget(\"OppositeInput\", true);\n\tresetWidget(\"StateSelect\", true);\n\tresetWidget(\"Table1\",true);\n})()}}",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "topRow": 9,
+              "bottomRow": 13,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 57,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "清空",
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 62,
+              "isDefaultClickDisabled": true,
+              "widgetId": "o53qg3s07c",
+              "isVisible": true,
+              "version": 1,
+              "recaptchaType": "V3",
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "SECONDARY"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Text3",
+              "topRow": 17,
+              "bottomRow": 21,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 13.943749999999998,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 44,
+              "dynamicBindingPathList": [
+                {
+                  "key": "text"
+                }
+              ],
+              "text": "共条{{ContractCount.data}}数据，第{{Table1.pageNo}}页，每页{{Table1.pageSize}}条数据",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 62,
+              "textAlign": "RIGHT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "yos3jhu9u7",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Button7",
+              "onClick": "{{showAlert('批量确认' + Table1.selectedRows.length + '条数据')}}",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "topRow": 17,
+              "bottomRow": 21,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "isVisible"
+                },
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "批量确认",
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 14,
+              "isDefaultClickDisabled": true,
+              "widgetId": "ccq6cyhg05",
+              "isVisible": "{{!!Table1.selectedRows.length}}",
+              "version": 1,
+              "recaptchaType": "V3",
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "合同确认_ContractCount",
+              "name": "ContractCount",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "StateSelect.selectedOptionValue ? 'confirm_state_eq' : ''",
+                "OppositeInput.text",
+                "ProjectInput.text",
+                "(Table1.pageNo - 1) * Table1.pageSize",
+                "TypeSelect.selectedOptionValue ? 'project_type_eq' : ''",
+                "EndDate.formattedDate || \"2099-01-01\"",
+                "Table1.pageSize",
+                "StateSelect.selectedOptionValue",
+                "StartDate.formattedDate || \"1900-01-01\"",
+                "TypeSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "合同确认_ComfirmStates",
+              "name": "ComfirmStates",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "合同确认_ProjectTypes",
+              "name": "ProjectTypes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "合同确认_Contracts",
+              "name": "Contracts",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "StateSelect.selectedOptionValue ? 'confirm_state_eq' : ''",
+                "OppositeInput.text",
+                "ProjectInput.text",
+                "(Table1.pageNo - 1) * Table1.pageSize",
+                "TypeSelect.selectedOptionValue ? 'project_type_eq' : ''",
+                "EndDate.formattedDate || \"2099-01-01\"",
+                "Table1.pageSize",
+                "StateSelect.selectedOptionValue",
+                "StartDate.formattedDate || \"1900-01-01\"",
+                "TypeSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "合同确认",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6319cbdd97b80d36d9af97dd_6319cbdd97b80d36d9af97ec"
+}

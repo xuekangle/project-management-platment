@@ -1,0 +1,135 @@
+{
+  "unpublishedPage": {
+    "name": "编辑合同",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1280,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 820,
+          "containerStyle": "none",
+          "snapRows": 129,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "schema": "{\"form\":{\"labelCol\":6,\"wrapperCol\":12},\"schema\":{\"type\":\"object\",\"properties\":{\"moo84candga\":{\"type\":\"void\",\"x-component\":\"FormGrid\",\"x-component-props\":{\"maxColumns\":2},\"_designableId\":\"moo84candga\",\"x-index\":0,\"properties\":{\"name\":{\"title\":\"合同名称\",\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"_designableId\":\"g7drofqd5yq\",\"x-index\":0,\"name\":\"name\",\"required\":true},\"uid\":{\"title\":\"合同编号\",\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"_designableId\":\"gtozw9kwr4t\",\"x-index\":1,\"name\":\"uid\",\"required\":true},\"opposite\":{\"title\":\"合同相对人\",\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"_designableId\":\"hmljogeikjo\",\"x-index\":2,\"name\":\"opposite\",\"required\":true},\"amount\":{\"type\":\"number\",\"title\":\"合同金额（万元）\",\"x-decorator\":\"FormItem\",\"x-component\":\"NumberPicker\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"_designableId\":\"ypblpxk3uuj\",\"x-index\":3,\"name\":\"amount\",\"required\":true},\"project_type\":{\"type\":\"string | number\",\"title\":\"合同类型\",\"x-decorator\":\"FormItem\",\"x-component\":\"Radio.Group\",\"enum\":[{\"children\":[],\"label\":\"设计\",\"value\":\"1\"},{\"children\":[],\"label\":\"监理\",\"value\":\"2\"},{\"children\":[],\"label\":\"施工\",\"value\":\"3\"},{\"children\":[],\"label\":\"无损检测\",\"value\":\"4\"},{\"children\":[],\"label\":\"咨询\",\"value\":\"5\"},{\"children\":[],\"label\":\"勘查\",\"value\":\"6\"}],\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{\"gridSpan\":2,\"labelCol\":3},\"name\":\"project_type\",\"_designableId\":\"nputx9rwptv\",\"x-index\":4,\"required\":true},\"project\":{\"title\":\"所属项目\",\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"_designableId\":\"r5i96ga1pqk\",\"x-index\":5,\"name\":\"project\",\"required\":true},\"range\":{\"type\":\"[string,string]\",\"title\":\"项目合同期\",\"x-decorator\":\"FormItem\",\"x-component\":\"DatePicker.RangePicker\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"_designableId\":\"le7ixwnpkah\",\"x-index\":6,\"name\":\"range\",\"required\":true}}},\"6duwj5pnyt4\":{\"type\":\"void\",\"x-component\":\"Card\",\"x-component-props\":{\"title\":\"关联责任单位\",\"style\":{\"margin\":\"30px 30px 30px 30px\",\"backgroundColor\":\"\"}},\"_designableId\":\"6duwj5pnyt4\",\"x-index\":1,\"properties\":{\"1ox09w0obah\":{\"type\":\"void\",\"title\":\"Addition\",\"x-component\":\"ArrayTable.Addition\",\"_designableId\":\"1ox09w0obah\",\"x-index\":0,\"x-component-props\":{\"method\":\"push\",\"title\":\"新增一行\"}},\"32lpwn632y4\":{\"type\":\"void\",\"title\":\"Addition\",\"x-component\":\"ArrayTable.Addition\",\"x-component-props\":{},\"_designableId\":\"32lpwn632y4\",\"x-index\":1},\"lqov6eyx8w0\":{\"type\":\"void\",\"title\":\"Addition\",\"x-component\":\"ArrayTable.Addition\",\"x-component-props\":{\"style\":{\"width\":\"100px\",\"backgroundColor\":\"rgba(208,2,27,1)\"}},\"_designableId\":\"lqov6eyx8w0\",\"x-index\":2},\"monj804kpd2\":{\"type\":\"void\",\"title\":\"Addition\",\"x-component\":\"ArrayTable.Addition\",\"x-component-props\":{},\"_designableId\":\"monj804kpd2\",\"x-index\":3},\"companies\":{\"type\":\"array\",\"x-decorator\":\"FormItem\",\"x-component\":\"ArrayTable\",\"x-validator\":[],\"x-component-props\":{\"style\":{\"backgroundColor\":\"\"}},\"x-decorator-props\":{\"bordered\":true},\"title\":\"\",\"_designableId\":\"7roehpkwhg4\",\"x-index\":4,\"name\":\"companies\",\"items\":{\"type\":\"object\",\"_designableId\":\"io6cw1affj0\",\"x-validator\":[],\"properties\":{\"hajshhm6k6c\":{\"type\":\"void\",\"title\":\"Addition\",\"x-component\":\"ArrayTable.Addition\",\"x-component-props\":{},\"_designableId\":\"hajshhm6k6c\",\"x-index\":0},\"fnd5imdcl47\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"单位类型\"},\"_designableId\":\"fnd5imdcl47\",\"x-index\":1,\"properties\":{\"type\":{\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"_designableId\":\"ddxmr2kmbf6\",\"x-index\":0,\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"name\":\"type\"}}},\"u5tdi18qtb3\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"单位名称\"},\"_designableId\":\"u5tdi18qtb3\",\"x-index\":2,\"properties\":{\"name\":{\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"_designableId\":\"g4q3m21tri4\",\"x-index\":0,\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"name\":\"name\"}}},\"ftg316wo2oz\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"备注\"},\"_designableId\":\"ftg316wo2oz\",\"x-index\":3,\"properties\":{\"note\":{\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"_designableId\":\"68bh8wyaa93\",\"x-index\":0,\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"name\":\"note\"}}},\"wo3pys34djj\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"操作\"},\"_designableId\":\"wo3pys34djj\",\"x-index\":4,\"properties\":{\"tqzcgo8obn8\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Remove\",\"_designableId\":\"tqzcgo8obn8\",\"x-index\":0},\"8p7yjnb6z0i\":{\"type\":\"void\",\"x-component\":\"ArrayTable.MoveDown\",\"_designableId\":\"8p7yjnb6z0i\",\"x-index\":1},\"iy5p9i199m9\":{\"type\":\"void\",\"x-component\":\"ArrayTable.MoveUp\",\"_designableId\":\"iy5p9i199m9\",\"x-index\":2}}}}},\"properties\":{\"ubggozxcri6\":{\"type\":\"void\",\"title\":\"Addition\",\"x-component\":\"ArrayTable.Addition\",\"x-component-props\":{\"style\":{\"width\":\"120px\",\"backgroundColor\":\"rgba(240,247,255,1)\"},\"title\":\"新增\",\"method\":\"push\"},\"_designableId\":\"ubggozxcri6\",\"x-index\":0}}}}},\"2z4td9u78z1\":{\"type\":\"void\",\"x-component\":\"Card\",\"x-component-props\":{\"title\":\"项目关键人员\",\"style\":{\"backgroundColor\":\"\",\"boxShadow\":\"rgba(126,112,195,1)    \",\"margin\":\"30px 30px 30px 30px\"}},\"_designableId\":\"2z4td9u78z1\",\"x-index\":2,\"properties\":{\"members\":{\"type\":\"array\",\"x-decorator\":\"FormItem\",\"x-component\":\"ArrayTable\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"title\":\"\",\"_designableId\":\"lgl6tre7t0i\",\"x-index\":0,\"name\":\"members\",\"items\":{\"type\":\"object\",\"_designableId\":\"5yuwzwj00h1\",\"properties\":{\"vcrsoc0803z\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"姓名\"},\"_designableId\":\"vcrsoc0803z\",\"x-index\":0,\"properties\":{\"name\":{\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"_designableId\":\"dfiia74agpr\",\"x-index\":0,\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"title\":\"\",\"name\":\"name\"}}},\"94dxsipypij\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"身份证号\"},\"_designableId\":\"94dxsipypij\",\"x-index\":1,\"properties\":{\"idNumber\":{\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"_designableId\":\"6fz7xrdr803\",\"x-index\":0,\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"name\":\"idNumber\"}}},\"5g5y3fkmg3m\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"岗位\"},\"_designableId\":\"5g5y3fkmg3m\",\"x-index\":2,\"properties\":{\"job\":{\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"_designableId\":\"da0z68zl6b3\",\"x-index\":0,\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"name\":\"job\"}}},\"dlgs2zponws\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"备注\"},\"_designableId\":\"dlgs2zponws\",\"x-index\":3,\"properties\":{\"note\":{\"type\":\"string\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"_designableId\":\"ibrgq8kn4m2\",\"x-index\":0,\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"name\":\"note\"}}},\"gsf4jhh9zyr\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Column\",\"x-component-props\":{\"title\":\"操作\"},\"_designableId\":\"gsf4jhh9zyr\",\"x-index\":4,\"properties\":{\"6dpzu37mdsk\":{\"type\":\"void\",\"x-component\":\"ArrayTable.Remove\",\"_designableId\":\"6dpzu37mdsk\",\"x-index\":0},\"icbabead70p\":{\"type\":\"void\",\"x-component\":\"ArrayTable.MoveDown\",\"_designableId\":\"icbabead70p\",\"x-index\":1},\"xbqu3f8jhgw\":{\"type\":\"void\",\"x-component\":\"ArrayTable.MoveUp\",\"_designableId\":\"xbqu3f8jhgw\",\"x-index\":2}}}}},\"properties\":{\"bn4fk5ozto1\":{\"type\":\"void\",\"title\":\"Addition\",\"x-component\":\"ArrayTable.Addition\",\"_designableId\":\"bn4fk5ozto1\",\"x-index\":0,\"x-component-props\":{\"method\":\"push\",\"title\":\"新增\",\"style\":{\"backgroundColor\":\"rgba(241,248,255,1)\",\"width\":\"120px\"}}}}}}}},\"_designableId\":\"4d4hvhrh1bj\"}}",
+              "boxShadow": "none",
+              "widgetName": "createForm",
+              "dynamicPropertyPathList": [],
+              "topRow": 5,
+              "bottomRow": 82,
+              "parentRowSpace": 10,
+              "title": "编辑合同",
+              "type": "FORMILY_WIDGET",
+              "triggerLabel": "打开表单",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onFormSubmit"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "initValue"
+                }
+              ],
+              "resetLabel": "重置",
+              "showReset": true,
+              "initValue": "{{_.assign({}, FindContract.data, {\n\tproject_type: FindContract.data.project_type.value,\n\trange: [FindContract.data.startTime, FindContract.data.endTime]\n})}}",
+              "submitLabel": "提交",
+              "labelTextSize": "0.875rem",
+              "onFormSubmit": "{{UpdateContract.run(() => navigateTo('合同信息', {}), () => {})}}",
+              "formType": "PLAIN",
+              "rightColumn": 64,
+              "widgetId": "vpwt56fk6o",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Button1",
+              "onClick": "{{navigateTo('合同信息', {})}}",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "topRow": 1,
+              "bottomRow": 5,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "返回",
+              "isDisabled": false,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 6,
+              "isDefaultClickDisabled": true,
+              "widgetId": "x2q3y7pxnz",
+              "isVisible": true,
+              "version": 1,
+              "recaptchaType": "V3",
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "SECONDARY"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "编辑合同_FindContract",
+              "name": "FindContract",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "_.assign({}, {\n\tstartTime: createForm.formData.range[0],\n\tendTime: createForm.formData.range[1],\n\tconfirm_state: '1'\n}, createForm.formData)",
+                "global.URL.queryParams.id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "编辑合同",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6319cbdd97b80d36d9af97dd_6319cbdd97b80d36d9af97e8"
+}
